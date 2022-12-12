@@ -2,14 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>custom-element demo</title>
+    <title>spark-line demo</title>
   </head>
   <body>
-    <custom-element></custom-element>
+    <spark-line>
+      <spark-line-point datetime="2022-12-12T17:07:00Z" value="20"></spark-line-point>
+      <spark-line-point datetime="2022-12-12T17:06:00Z" value="50"></spark-line-point>
+      <spark-line-point datetime="2022-12-12T17:06:50Z" value="80"></spark-line-point>
+      <div>
+        <p>Hello World</p>
+      </div>
+    </spark-line>
 
     <script type="module">
-      // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
-      import '../src/custom-element.ts'
+      // import 'https://unpkg.com/@github/spark-line-boilerplate@latest/dist/spark-line.js'
+      import '../src/spark-line-element.ts'
     </script>
   </body>
 </html>
